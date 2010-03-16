@@ -13,9 +13,9 @@ The API uses the underlying data model from Drive to build a directed linked gra
 
 = Features =
 
-* C# based RDF parser for the .NET platform
-* Compliant with the OWL Syntax Specification
-* Builds a directed linked graph
-* Can be used with any .NET language
-* Merges Graphs from multiple sources
-* Simple generator using the visitor pattern
+  * C# based RDF parser for the .NET platform
+  * Compliant with the OWL Syntax Specification
+  * Builds a directed linked graph
+  * Can be used with any .NET language
+  * Merges Graphs from multiple sources
+  * Simple generator using the visitor pattern
