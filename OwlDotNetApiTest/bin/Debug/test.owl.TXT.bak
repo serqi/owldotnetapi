@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns="http://www.owl-ontologies.com/test.owl#"
+    xml:base="http://www.owl-ontologies.com/test.owl">
+  <owl:Ontology rdf:about="">
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This is a test for Imad Odat</owl:versionInfo>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An example ontology .</rdfs:comment>
+  </owl:Ontology>
+  <owl:Class rdf:ID="Course">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This is the basic course class.</rdfs:comment>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="isPrerequisite">
+    <rdfs:range rdf:resource="#Course"/>
+    <rdfs:domain rdf:resource="#Course"/>
+  </owl:ObjectProperty>
+  <Course rdf:ID="CourseA"/>
+  <Course rdf:ID="CourseB">
+    <isPrerequisite rdf:resource="#CourseA"/>
+  </Course>
+  <Course rdf:ID="CourseC">
+    <isPrerequisite rdf:resource="#CourseA"/>
+  </Course>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 1.2 beta, Build 146)  http://protege.stanford.edu -->

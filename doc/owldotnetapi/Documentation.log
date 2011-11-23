@@ -1,0 +1,15 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling f:\Applications\OwlDotNetApi\OwlDotNetApi\doc\owldotnetapi\ndoc_msdn_temp\Documentation.chm
+
+HHC4006: Warning: The file "OwlDotNetApi.OwlEdge.Directed.html" is already listed in the [FILES] section of the project file.
+
+Compile time: 0 minutes, 9 seconds
+1,083	Topics
+4,109	Local links
+0	Internet links
+7	Graphics
+
+
+Created f:\Applications\OwlDotNetApi\OwlDotNetApi\doc\owldotnetapi\ndoc_msdn_temp\Documentation.chm, 221,015 bytes
+Compression decreased file by 1,469,504 bytes.
